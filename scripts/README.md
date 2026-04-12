@@ -22,7 +22,7 @@ scripts/
 |---|---|---|
 | [`New-OUStructure.ps1`](./powershell/New-OUStructure.ps1) | Création automatique des OUs AD par site | ✅ |
 | [`New-ADUsersFromExcel.ps1`](./powershell/New-ADUsersFromExcel.ps1) | Création des comptes AD depuis fichier Excel RH | ✅ |
-| `Set-NetworkDHCP.ps1` | Forcer carte réseau en DHCP via GPO | 🔄 En cours |
+| [`Set-NetworkDHCP.ps1`](./powershell/Set-NetworkDHCP.ps1) | Forcer carte réseau en DHCP via GPO | ✅ |
 
 ---
 
@@ -39,6 +39,11 @@ scripts/
 | Script | Description | Statut |
 |---|---|---|
 | — | Scripts à venir — Phase 4 du lab GNS3 Security | ⏳ À venir |
+
+---
+
+> Tous les scripts sont testés dans un environnement GNS3 virtualisé.  
+> Dernière mise à jour : avril 2026
 
 ---
 
