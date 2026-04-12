@@ -44,8 +44,3 @@ scripts/
 
 > Tous les scripts sont testés dans un environnement GNS3 virtualisé.  
 > Dernière mise à jour : avril 2026
-
----
-
-> Tous les scripts sont testés dans un environnement GNS3 virtualisé.  
-> Dernière mise à jour : avril 2026
