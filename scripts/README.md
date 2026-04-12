@@ -31,6 +31,7 @@ scripts/
 | Script | Description | Statut |
 |---|---|---|
 | [`configuration-base-equipement.txt`](./cisco/configuration-base-equipement.txt) | Configuration de base des équipements Cisco — routeurs et switches | ✅ |
+| [`vlan-setup.txt`](./cisco/vlan-setup.txt) | Configuration compléte des switchs Cisco, site distant | ✅ |
 
 ---
 
