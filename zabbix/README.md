@@ -277,7 +277,7 @@ systemctl enable --now zabbix-agent
 | Equipements Réseau | snmp | PorteParis / SWParis |
 
 > Captures du dashboard et liste des hôtes disponibles dans [`screenshots/`](./screenshots/)
-
+![Doc](./screenshots/hotes-supervises-zabbix.png)
 ---
 
 ## Sources
