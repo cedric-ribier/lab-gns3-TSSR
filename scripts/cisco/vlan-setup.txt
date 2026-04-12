@@ -1,0 +1,164 @@
+en
+!
+conf t
+!
+hostname $NAME
+!
+enable secret $PASSWORD
+!
+ip domain-name ACL.eu
+!
+no ip domain-lookup
+!
+banner motd $
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+UNAUTHORIZED ACCESS IS PROHIBITED
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+$
+!
+line console 0
+!
+password $PASSWORD
+!
+logging synchronous
+!
+login
+!
+exec-timeout 5
+!
+exit
+!
+username $NAME password $PASSWORD
+!
+username $NAME privilege 15 password $PASSWORD
+!
+crypto key generate rsa
+512
+!
+ip ssh version 2
+!
+ip ssh authentication-retries 3
+!
+line vty 0 3
+!
+transport input ssh
+!
+login local
+!
+exit
+!
+ip ssh time-out 120
+!
+service password-encryption
+!
+end
+!
+conf t
+!
+vlan 10
+!
+name RH
+!
+exit
+!
+vlan 20
+!
+name Compta
+!
+exit
+!
+vlan 30
+!
+name Info
+!
+exit
+!
+vlan 40
+!
+name DG
+!
+exit
+!
+vlan 50
+!
+name DA
+!
+exit
+!
+vlan 60
+!
+name Serveur
+!
+exit
+!
+vlan 99
+!
+name Management
+!
+exit
+!
+interface range F1/13-15
+!
+sw mode access
+!
+sw access vlan 99
+!
+exit
+!
+interface range F1/1-2
+!
+sw mode access
+!
+sw access vlan 10
+!
+exit
+! 
+interface range F1/3-4
+!
+sw mode access
+!
+sw access vlan 20
+!
+exit 
+!
+interface range F1/5-6
+!
+sw mode access
+!
+sw access vlan 30
+!
+exit 
+!
+interface rangeF1/7-8
+!
+sw mode access
+!
+sw access vlan 40
+!
+exit 
+!
+interface range F1/9-10
+!
+sw mode access
+!
+sw access vlan 50
+!
+exit 
+!
+interface range F1/11-12
+!
+sw mode access
+!
+sw access vlan 60
+!
+exit
+!
+interface F1/0
+!
+sw trunk encapsulation dot1Q
+!
+sw trunk allowed  vlan 10,20,30,40,50,60,99
+end 
+!
+copy running-config startup-config
+!
