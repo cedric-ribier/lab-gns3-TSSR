@@ -41,8 +41,8 @@ Router# copy tftp running-config
 
 | Script | Description | Statut |
 |---|---|---|
-| [`configuration-base-equipement.txt`](./cisco/configuration-base-equipement.txt) | Configuration de base - Switch Routeur Cisco | ✅ |
-| [`vlan-setup.txt`](./cisco/vlan-setup.txt) | Configuration VLANs et trunks — Switch IOSvL2 | ✅ |
+| [`configuration-base-equipement.txt`](./configuration-base-equipement.txt) | Configuration de base - Switch Routeur Cisco | ✅ |
+| [`vlan-setup.txt`](./vlan-setup.txt) | Configuration VLANs et trunks — Switch IOSvL2 | ✅ |
 | `router-on-a-stick.txt` | Routage inter-VLAN — sous-interfaces dot1Q | 🔄 En cours |
 | `site-distant.txt` | Connexion point-à-point et ip helper-address | 🔄 En cours |
 
