@@ -242,6 +242,8 @@ Configuration initiale via l'assistant web — connexion à PostgreSQL, fuseau h
 
 > Captures du dashboard disponibles dans [`screenshots/`](./screenshots/)
 
+ [`hotes-supervises-zabbix.png`](./screnshots/hotes-supervises-zabbix.png)
+
 ---
 
 ## M. Déploiement des agents
