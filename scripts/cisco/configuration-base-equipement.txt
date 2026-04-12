@@ -1,0 +1,57 @@
+en
+!
+conf t
+!
+hostname $NAME
+!
+enable secret $PASSWORD
+!
+ip domain-name $DOMAIN
+!
+no ip domain-lookup
+!
+banner motd $
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+UNAUTHORIZED ACCESS IS PROHIBITED
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+$
+!
+line console 0
+!
+password $PASSWORD
+!
+logging synchronous
+!
+login
+!
+exec-timeout 5
+!
+exit
+!
+username $NAME password $PASSWORD
+!
+username $NAME privilege 15 password $PASSWORD
+!
+crypto key generate rsa
+$VALEUR(512 ; 1024 ; 2048)
+!
+ip ssh version 2
+!
+ip ssh authentication-retries 3
+!
+line vty 0 3
+!
+transport input ssh
+!
+login local
+!
+exit
+!
+ip ssh time-out 120
+!
+service password-encryption
+!
+end
+!
+copy runnig-config startup-config
+!
