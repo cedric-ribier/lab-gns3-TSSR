@@ -118,7 +118,7 @@ Script de création automatique des OUs d'un nouveau site à partir de la struct
 
 Le script récupère les OUs métiers existantes (`Compta_Paris`, `Design_Animation_Paris`…) et génère les OUs correspondantes pour le nouveau site en respectant l'arborescence et la racine.
 
-> Script complet disponible dans [`../powershell/`]([https://github.com/cedric-ribier/scripts/powershell](https://github.com/cedric-ribier/lab-gns3-TSSR/tree/a32054916924c74793619bc180628836e4cc789b/scripts/powershell) et dans le repo [`Powershell-scripts`](https://github.com/cedric-ribier/Powershell-scripts)
+> Script complet disponible dans [`../powershell/`](https://github.com/cedric-ribier/lab-gns3-TSSR/tree/a32054916924c74793619bc180628836e4cc789b/scripts/powershell) et dans le repo [`Powershell-scripts`](https://github.com/cedric-ribier/Powershell-scripts)
 
 
 ## F. Automatisation — création de comptes utilisateurs
