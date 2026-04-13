@@ -50,7 +50,7 @@ Serveur FOG           Debian Bureau
     └── PC Cible WIN11 (déploiement)
 ```
 
-> Schéma disponible dans [`screenshots/`](./screenshots/)
+> Schéma disponible dans [`screenshots/`](https://github.com/cedric-ribier/install-guides/tree/af2a331a99b0f81e1fa2d9fb5f92e5764481f1e3/fogproject/screenshots)
 
 ---
 
@@ -193,7 +193,7 @@ File system: NTFS
 Device size: 13.7 GB = 3396168 Blocks
 ```
 
-> Capture de la progression disponible dans [`screenshots/`](./screenshots/)
+> Capture de la progression disponible dans [`screenshots/`](https://github.com/cedric-ribier/install-guides/tree/af2a331a99b0f81e1fa2d9fb5f92e5764481f1e3/fogproject/screenshots)
 
 ---
 
