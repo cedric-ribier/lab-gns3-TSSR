@@ -227,7 +227,7 @@ Booter la machine en PXE — le déploiement s'exécute automatiquement.
 - Applications correctement déployées (Firefox, 7-Zip…)
 - FOG Client opérationnel sur le poste déployé
 
-> Capture du bureau Windows déployé disponible dans [`screenshots/`](./screenshots/)
+> Capture du bureau Windows déployé disponible dans [`screenshots/`](https://github.com/cedric-ribier/install-guides/tree/af2a331a99b0f81e1fa2d9fb5f92e5764481f1e3/fogproject/screenshots)
 
 ---
 
