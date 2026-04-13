@@ -3,6 +3,7 @@
 Déploiement d'une solution de supervision complète sur Debian Trixie 13.x.  
 Surveillance de l'ensemble de l'infrastructure CreativeFusion Studios avec collecte de métriques via agents Zabbix.
 
+> Documentation de l'installation [zabbix/](https://github.com/cedric-ribier/install-guides/tree/bf8896ce746a07688ceadce48bf4ff912dce353c/zabbix) 
 ---
 
 ## Objectifs
