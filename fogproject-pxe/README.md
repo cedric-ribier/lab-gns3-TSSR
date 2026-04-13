@@ -3,6 +3,9 @@
 Solution open-source de déploiement d'images système via PXE.  
 Capture d'une image Windows 11 masterisée et déploiement automatique sur nouvelles machines.
 
+Guide complet de l'installation [FOGProject](https://github.com/cedric-ribier/install-guides/tree/af2a331a99b0f81e1fa2d9fb5f92e5764481f1e3/fogproject)
+
+
 ---
 
 ## Objectifs
