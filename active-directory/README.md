@@ -144,7 +144,6 @@ Fichier Excel RH  →  Script PowerShell  →  Active Directory
 
 **Planificateur de tâches** : exécution automatique à **12h00** et **19h30**
 
-> Script complet : [`../powershell/Creation_Utilisateurs_Auto.ps1`](../powershell/)
 
 ---
 
