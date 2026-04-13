@@ -118,7 +118,7 @@ Script de création automatique des OUs d'un nouveau site à partir de la struct
 
 Le script récupère les OUs métiers existantes (`Compta_Paris`, `Design_Animation_Paris`…) et génère les OUs correspondantes pour le nouveau site en respectant l'arborescence et la racine.
 
-> Script complet disponible dans [`../powershell/`](./scripts/powershell/) et dans le repo [`Powershell-scripts`](https://github.com/cedricribierplf-eng/Powershell-scripts)
+> Script complet disponible dans [`../powershell/`](./lab-gns3-tssr/scripts/powershell/) et dans le repo [`Powershell-scripts`](https://github.com/cedric-ribier/Powershell-scripts)
 
 ---
 
