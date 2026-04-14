@@ -57,7 +57,7 @@ Simulé dans GNS3 avec des équipements Cisco virtualisés et des VMs connectée
   └── Gi0/6  — VLAN 60 — VM Windows Server 2022 (AD/DHCP/FTP)
 ```
 
-> Schéma GNS3 exporté disponible dans [`screenshots/`](./cedric-ribier/screenshots/)
+> Schéma GNS3 exporté disponible dans [`screenshots/`](./screenshots/) 
 
 ---
 
