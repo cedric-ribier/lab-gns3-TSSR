@@ -169,16 +169,5 @@ Test effectué depuis un PC Windows 11 connecté à une interface libre du switc
 
 ---
 
-## Screenshots à ajouter
-
-| Fichier | Capture |
-|---|---|
-| `01-vlan70-brief.png` | `show vlan brief` avec VLAN 70 actif |
-| `02-dhcp-invite.png` | PC invité ayant reçu une IP dans `172.16.70.x` |
-| `03-portail-captif.png` | Page de login pfSense — redirection réussie |
-| `04-navigation-ok.png` | Navigation Internet après authentification |
-
----
-
 > Réalisé seul dans GNS3 — Cisco 7200, IOSvL2, pfSense, Windows Server 2022, Windows 11  
 > Dernière mise à jour : avril 2026
