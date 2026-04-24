@@ -1,4 +1,4 @@
-# pfSense — Portail captif VLAN invité
+# PfSense — Portail captif VLAN invité
 
 Mise en place d'un portail captif pfSense pour isoler et contrôler les connexions invités.  
 Les périphériques invités accèdent à Internet après authentification, sans pouvoir atteindre le réseau interne.
